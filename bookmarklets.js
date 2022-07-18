@@ -1,5 +1,5 @@
 // [de|fr] -> nl
-// based on : 
+// based on : https://superuser.com/a/1153627
 javascript:(function() { window.location=window.location.toString().replace(/.[fr|de]\//,'nl/'); })()
 
 // to lowercase
