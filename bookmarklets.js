@@ -19,7 +19,7 @@ javascript:var t=((window.getSelection&&window.getSelection())||(document.getSel
 javascript:d=""+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);d=d.replace(/%5Cr%5Cn%7C%5Cr%7C%5Cn/g," ,");if(!d)d=prompt("Enter the words:", "");if(d!=null)location="http://www.google.be/search?q=define:"+escape(d).replace(/ /g,"+");void(0);
 
 // send via gmail
-    javascript:(function()%7Bm='http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=destinataire@gmail.com&su=%27+encodeURIComponent(document.title)+%27&body=%27+encodeURIComponent(document.location);w=window.open(m,%27addwindow%27,%27status=no,toolbar=no,width=575,height=545,resizable=yes%27);setTimeout(function()%7Bw.focus();%7D, 250);%7D)();
+javascript:(function()%7Bm='http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=destinataire@gmail.com&su=%27+encodeURIComponent(document.title)+%27&body=%27+encodeURIComponent(document.location);w=window.open(m,%27addwindow%27,%27status=no,toolbar=no,width=575,height=545,resizable=yes%27);setTimeout(function()%7Bw.focus();%7D, 250);%7D)();
 
 // add to hackernews
 javascript:window.location="http://news.ycombinator.com/submitlink?u="+encodeURIComponent(document.location)+"&t="+encodeURIComponent(document.title)
